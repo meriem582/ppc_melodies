@@ -1,0 +1,309 @@
+2025.12.03 10:58:07 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.03 10:58:07 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+déc. 03, 2025 10:58:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+déc. 03, 2025 10:58:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+déc. 03, 2025 10:58:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.12.03 10:58:09 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 10:58:09 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 10:58:09 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 10:58:10 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 10:58:10 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 10:58:11 INFO  Running List(C:\Users\merie\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code)
+2025.12.03 10:58:11 INFO  Attempting to connect to the build server...
+2025.12.03 10:58:11 INFO  Running BSP server List(C:\Users\merie\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-envs.json, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code)
+2025.12.03 10:58:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.metals\bsp.trace.json or C:\Users\merie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.12.03 10:58:12 INFO  time: Connected to build server in 1.25s
+2025.12.03 10:58:12 INFO  Connected to Build server: scala-cli v1.6.1
+2025.12.03 10:58:12 INFO  time: Imported build in 0.11s
+2025.12.03 10:58:12 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 10:58:15 INFO  time: compiled TME8_code_d5c0a6989e in 2.07s
+2025.12.03 10:58:15 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 10:58:15 INFO  time: compiled TME8_code_d5c0a6989e in 0.18s
+2025.12.03 10:58:20 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.03 10:58:22 INFO  time: indexed workspace in 9.4s
+2025.12.03 10:58:22 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 10:58:22 INFO  time: compiled TME8_code_d5c0a6989e in 0.57s
+2025.12.03 10:58:23 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\build.sbt. Using presentation compiler with project's scala-library version: 3.6.3
+2025.12.03 10:58:23 WARN  no build target for: C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\build.sbt
+déc. 03, 2025 10:58:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+déc. 03, 2025 10:58:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.12.03 11:11:47 INFO  Shutting down server
+2025.12.03 11:11:47 INFO  shutting down Metals
+2025.12.03 11:11:47 INFO  Shut down connection with build server.
+2025.12.03 11:11:47 INFO  Exiting server
+2025.12.03 11:13:09 INFO  Started: Metals version 1.6.4 in folders 'C:\Users\merie\Desktop\WorkSpacePPC\TME8_code' for client Visual Studio Code 1.106.3.
+2025.12.03 11:13:09 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.03 11:13:10 INFO  Attempting to connect to the build server...
+2025.12.03 11:13:10 INFO  Running BSP server List(C:\Users\merie\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-envs.json, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code)
+2025.12.03 11:13:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.metals\bsp.trace.json or C:\Users\merie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.12.03 11:13:11 INFO  time: Connected to build server in 1.52s
+2025.12.03 11:13:11 INFO  Connected to Build server: scala-cli v1.6.1
+2025.12.03 11:13:12 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:13:12 INFO  time: compiled TME8_code_d5c0a6989e in 0.9s
+2025.12.03 11:13:12 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:13:13 INFO  time: compiled TME8_code_d5c0a6989e in 0.72s
+2025.12.03 11:13:19 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.03 11:13:29 INFO  time: indexed workspace in 17s
+2025.12.03 11:14:33 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:14:35 INFO  time: compiled TME8_code_d5c0a6989e in 1.29s
+2025.12.03 11:18:05 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\build.sbt. Using presentation compiler with project's scala-library version: 3.6.3
+2025.12.03 11:18:05 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\build.sbt. Using presentation compiler with project's scala-library version: 3.6.3
+2025.12.03 11:18:05 WARN  no build target for: C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\build.sbt
+2025.12.03 11:18:05 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\build.sbt. Using presentation compiler with project's scala-library version: 3.6.3
+2025.12.03 11:18:05 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\build.sbt. Using presentation compiler with project's scala-library version: 3.6.3
+2025.12.03 11:18:05 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\build.sbt. Using presentation compiler with project's scala-library version: 3.6.3
+2025.12.03 11:19:10 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\build.sbt. Using presentation compiler with project's scala-library version: 3.6.3
+2025.12.03 11:19:23 INFO  Shutting down server
+2025.12.03 11:19:23 INFO  shutting down Metals
+2025.12.03 11:19:23 INFO  Shut down connection with build server.
+2025.12.03 11:19:23 INFO  BSP server: Dec 03, 2025 11:19:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2025.12.03 11:19:23 INFO  Exiting server
+2025.12.03 11:19:33 INFO  Started: Metals version 1.6.4 in folders 'C:\Users\merie\Desktop\WorkSpacePPC\TME8_code' for client Visual Studio Code 1.106.3.
+2025.12.03 11:19:35 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.03 11:19:35 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 11:19:35 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 11:19:35 INFO  Attempting to connect to the build server...
+2025.12.03 11:19:35 INFO  Running BSP server List(C:\Users\merie\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-envs.json, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code)
+2025.12.03 11:19:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.metals\bsp.trace.json or C:\Users\merie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.12.03 11:19:37 INFO  time: Connected to build server in 1.6s
+2025.12.03 11:19:37 INFO  Connected to Build server: scala-cli v1.6.1
+2025.12.03 11:19:37 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:19:37 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:19:38 INFO  time: compiled TME8_code_d5c0a6989e in 0.7s
+2025.12.03 11:19:43 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.03 11:19:43 INFO  time: indexed workspace in 6.82s
+2025.12.03 11:19:44 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:19:44 INFO  time: compiled TME8_code_d5c0a6989e in 0.33s
+déc. 03, 2025 11:19:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 8
+2025.12.03 11:19:54 INFO  Shutting down server
+2025.12.03 11:19:54 INFO  shutting down Metals
+2025.12.03 11:19:54 INFO  Shut down connection with build server.
+2025.12.03 11:19:54 INFO  BSP server: Dec 03, 2025 11:19:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2025.12.03 11:19:54 INFO  Exiting server
+2025.12.03 11:22:41 INFO  Started: Metals version 1.6.4 in folders 'C:\Users\merie\Desktop\WorkSpacePPC\TME8_code' for client Visual Studio Code 1.106.3.
+2025.12.03 11:22:43 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.03 11:22:44 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 11:22:44 INFO  Attempting to connect to the build server...
+2025.12.03 11:22:44 INFO  Running BSP server List(C:\Users\merie\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-envs.json, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code)
+2025.12.03 11:22:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.metals\bsp.trace.json or C:\Users\merie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.12.03 11:22:47 INFO  BSP server: Starting compilation server
+2025.12.03 11:22:49 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 11:22:49 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 11:22:49 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 11:22:49 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 11:22:49 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+déc. 03, 2025 11:22:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 8
+2025.12.03 11:22:49 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 11:22:56 INFO  time: Connected to build server in 11s
+2025.12.03 11:22:56 INFO  Connected to Build server: scala-cli v1.6.1
+2025.12.03 11:22:56 INFO  time: Imported build in 0.27s
+2025.12.03 11:22:57 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:23:02 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.03 11:23:02 INFO  time: indexed workspace in 6.71s
+2025.12.03 11:23:06 INFO  time: compiled TME8_code_d5c0a6989e in 9.27s
+2025.12.03 11:23:06 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:23:09 INFO  time: compiled TME8_code_d5c0a6989e in 2.26s
+2025.12.03 11:23:09 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:23:10 INFO  time: compiled TME8_code_d5c0a6989e in 1.14s
+2025.12.03 11:26:03 INFO  time: indexed workspace in 0.81s
+2025.12.03 11:26:03 INFO  Correctly reloaded workspace
+2025.12.03 11:26:10 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:26:11 INFO  time: compiled TME8_code_d5c0a6989e in 1.32s
+2025.12.03 11:28:41 INFO  Shutting down server
+2025.12.03 11:28:41 INFO  shutting down Metals
+2025.12.03 11:28:41 INFO  Shut down connection with build server.
+2025.12.03 11:28:41 INFO  Exiting server
+2025.12.03 11:28:57 INFO  Started: Metals version 1.6.4 in folders 'C:\Users\merie\Desktop\WorkSpacePPC\TME8_code' for client Visual Studio Code 1.106.3.
+2025.12.03 11:28:59 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.03 11:28:59 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 11:29:02 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\PLAYER\src\main\scala\player.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.03 11:29:02 INFO  Attempting to connect to the build server...
+2025.12.03 11:29:02 INFO  Running BSP server List(C:\Users\merie\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-envs.json, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code)
+2025.12.03 11:29:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.metals\bsp.trace.json or C:\Users\merie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.12.03 11:29:04 INFO  time: Connected to build server in 1.78s
+2025.12.03 11:29:04 INFO  Connected to Build server: scala-cli v1.6.1
+2025.12.03 11:29:04 INFO  time: Imported build in 0.12s
+2025.12.03 11:29:04 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:29:06 INFO  time: compiled TME8_code_d5c0a6989e in 1.52s
+2025.12.03 11:29:06 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:29:06 INFO  time: compiled TME8_code_d5c0a6989e in 0.73s
+2025.12.03 11:29:09 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.03 11:29:09 INFO  time: indexed workspace in 5.12s
+2025.12.03 11:29:10 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:29:10 INFO  time: compiled TME8_code_d5c0a6989e in 0.78s
+déc. 03, 2025 11:40:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 141
+2025.12.03 11:40:56 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:40:56 INFO  time: compiled TME8_code_d5c0a6989e in 0.76s
+déc. 03, 2025 11:40:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 175
+2025.12.03 11:41:00 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:41:00 INFO  time: compiled TME8_code_d5c0a6989e in 0.52s
+2025.12.03 11:41:17 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:41:17 INFO  time: compiled TME8_code_d5c0a6989e in 0.23s
+2025.12.03 11:42:42 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:42:42 INFO  time: compiled TME8_code_d5c0a6989e in 0.26s
+2025.12.03 11:42:46 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:42:46 INFO  time: compiled TME8_code_d5c0a6989e in 0.25s
+2025.12.03 11:42:48 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:42:48 INFO  time: compiled TME8_code_d5c0a6989e in 0.28s
+2025.12.03 11:43:36 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:43:36 INFO  time: compiled TME8_code_d5c0a6989e in 0.25s
+2025.12.03 11:45:29 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:45:29 INFO  time: compiled TME8_code_d5c0a6989e in 0.26s
+2025.12.03 11:45:32 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:45:32 INFO  time: compiled TME8_code_d5c0a6989e in 0.21s
+2025.12.03 11:47:38 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:47:38 INFO  time: compiled TME8_code_d5c0a6989e in 0.26s
+2025.12.03 11:47:41 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:47:41 INFO  time: compiled TME8_code_d5c0a6989e in 0.48s
+2025.12.03 11:47:42 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:47:42 INFO  time: compiled TME8_code_d5c0a6989e in 0.27s
+2025.12.03 11:53:53 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:53:53 INFO  time: compiled TME8_code_d5c0a6989e in 0.31s
+2025.12.03 11:53:59 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:53:59 INFO  time: compiled TME8_code_d5c0a6989e in 0.24s
+2025.12.03 11:54:04 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:54:04 INFO  time: compiled TME8_code_d5c0a6989e in 0.22s
+2025.12.03 11:54:07 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:54:07 INFO  time: compiled TME8_code_d5c0a6989e in 0.3s
+2025.12.03 11:54:08 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:54:08 INFO  time: compiled TME8_code_d5c0a6989e in 0.23s
+2025.12.03 11:54:09 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:54:09 INFO  time: compiled TME8_code_d5c0a6989e in 0.26s
+2025.12.03 11:55:21 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:55:21 INFO  time: compiled TME8_code_d5c0a6989e in 0.47s
+2025.12.03 11:55:22 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:55:22 INFO  time: compiled TME8_code_d5c0a6989e in 0.27s
+2025.12.03 11:55:27 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:55:27 INFO  time: compiled TME8_code_d5c0a6989e in 0.21s
+2025.12.03 11:55:29 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:55:29 INFO  time: compiled TME8_code_d5c0a6989e in 0.21s
+2025.12.03 11:55:35 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:55:35 INFO  time: compiled TME8_code_d5c0a6989e in 0.22s
+2025.12.03 11:55:42 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:55:42 INFO  time: compiled TME8_code_d5c0a6989e in 0.18s
+2025.12.03 11:55:48 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:55:48 INFO  time: compiled TME8_code_d5c0a6989e in 0.34s
+2025.12.03 11:55:50 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:55:50 INFO  time: compiled TME8_code_d5c0a6989e in 0.38s
+2025.12.03 11:55:53 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:55:53 INFO  time: compiled TME8_code_d5c0a6989e in 0.23s
+2025.12.03 11:56:10 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:56:10 INFO  time: compiled TME8_code_d5c0a6989e in 0.25s
+2025.12.03 11:56:11 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:56:11 INFO  time: compiled TME8_code_d5c0a6989e in 0.28s
+2025.12.03 11:56:13 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:56:13 INFO  time: compiled TME8_code_d5c0a6989e in 0.23s
+2025.12.03 11:56:14 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:56:14 INFO  time: compiled TME8_code_d5c0a6989e in 0.18s
+2025.12.03 11:56:18 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:56:18 INFO  time: compiled TME8_code_d5c0a6989e in 0.3s
+2025.12.03 11:56:20 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:56:20 INFO  time: compiled TME8_code_d5c0a6989e in 0.28s
+2025.12.03 11:56:28 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:56:28 INFO  time: compiled TME8_code_d5c0a6989e in 0.17s
+2025.12.03 11:56:32 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:56:32 INFO  time: compiled TME8_code_d5c0a6989e in 0.18s
+2025.12.03 11:56:37 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:56:37 INFO  time: compiled TME8_code_d5c0a6989e in 0.19s
+2025.12.03 11:56:41 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:56:41 INFO  time: compiled TME8_code_d5c0a6989e in 0.28s
+2025.12.03 11:57:06 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:57:06 INFO  time: compiled TME8_code_d5c0a6989e in 0.5s
+2025.12.03 11:57:08 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:57:08 INFO  time: compiled TME8_code_d5c0a6989e in 0.2s
+2025.12.03 11:57:13 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:57:13 INFO  time: compiled TME8_code_d5c0a6989e in 0.16s
+2025.12.03 11:57:17 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:57:17 INFO  time: compiled TME8_code_d5c0a6989e in 0.16s
+2025.12.03 11:57:38 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:57:38 INFO  time: compiled TME8_code_d5c0a6989e in 0.18s
+2025.12.03 11:58:04 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:58:04 INFO  time: compiled TME8_code_d5c0a6989e in 0.16s
+2025.12.03 11:58:07 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:58:07 INFO  time: compiled TME8_code_d5c0a6989e in 0.2s
+2025.12.03 11:58:10 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:58:10 INFO  time: compiled TME8_code_d5c0a6989e in 0.2s
+2025.12.03 11:58:13 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:58:13 INFO  time: compiled TME8_code_d5c0a6989e in 0.29s
+2025.12.03 11:58:16 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:58:16 INFO  time: compiled TME8_code_d5c0a6989e in 0.17s
+2025.12.03 11:58:19 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:58:19 INFO  time: compiled TME8_code_d5c0a6989e in 0.15s
+2025.12.03 11:58:21 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:58:21 INFO  time: compiled TME8_code_d5c0a6989e in 0.13s
+2025.12.03 11:59:09 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:59:09 INFO  time: compiled TME8_code_d5c0a6989e in 0.2s
+2025.12.03 11:59:13 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 11:59:13 INFO  time: compiled TME8_code_d5c0a6989e in 0.13s
+2025.12.03 12:01:43 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 12:01:43 INFO  time: compiled TME8_code_d5c0a6989e in 0.37s
+2025.12.03 12:01:46 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 12:01:46 INFO  time: compiled TME8_code_d5c0a6989e in 0.17s
+2025.12.03 12:01:48 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 12:01:48 INFO  time: compiled TME8_code_d5c0a6989e in 0.14s
+2025.12.03 12:03:47 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 12:03:47 INFO  time: compiled TME8_code_d5c0a6989e in 0.22s
+2025.12.03 12:03:48 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 12:03:48 INFO  time: compiled TME8_code_d5c0a6989e in 0.2s
+2025.12.03 12:03:52 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 12:03:52 INFO  time: compiled TME8_code_d5c0a6989e in 0.2s
+2025.12.03 20:10:43 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.03 20:10:44 INFO  time: compiled TME8_code_d5c0a6989e in 1.72s
+2025.12.04 17:29:08 INFO  Shutting down server
+2025.12.04 17:29:08 INFO  shutting down Metals
+2025.12.04 21:53:04 INFO  Started: Metals version 1.6.4 in folders 'C:\Users\merie\Desktop\WorkSpacePPC\TME8_code' for client Visual Studio Code 1.106.3.
+2025.12.04 21:53:09 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.04 21:53:09 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\TME8\src\main\scala\bach.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.04 21:53:17 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\TME8\src\main\scala\bach.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.04 21:53:17 INFO  Attempting to connect to the build server...
+2025.12.04 21:53:17 INFO  Running BSP server List(C:\Users\merie\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-envs.json, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code)
+2025.12.04 21:53:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.metals\bsp.trace.json or C:\Users\merie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.12.04 21:53:28 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\TME8\src\main\scala\bach.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.04 21:53:34 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\TME8\src\main\scala\bach.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.04 21:53:39 INFO  time: Connected to build server in 21s
+2025.12.04 21:53:39 INFO  Connected to Build server: scala-cli v1.6.1
+2025.12.04 21:53:39 INFO  time: Imported build in 0.22s
+2025.12.04 21:53:39 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.04 21:53:42 INFO  time: compiled TME8_code_d5c0a6989e in 2.62s
+2025.12.04 21:53:42 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.04 21:53:42 INFO  time: compiled TME8_code_d5c0a6989e in 94ms
+2025.12.04 21:53:47 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.04 21:53:47 INFO  time: indexed workspace in 8.61s
+2025.12.04 21:53:48 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.04 21:53:48 INFO  time: compiled TME8_code_d5c0a6989e in 0.2s
+2025.12.04 22:16:59 INFO  Shutting down server
+2025.12.04 22:16:59 INFO  shutting down Metals
+2025.12.04 22:16:59 INFO  Shut down connection with build server.
+2025.12.04 22:16:59 INFO  Exiting server
+2025.12.04 22:17:13 INFO  Started: Metals version 1.6.4 in folders 'C:\Users\merie\Desktop\WorkSpacePPC\TME8_code' for client Visual Studio Code 1.106.3.
+2025.12.04 22:17:14 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.04 22:17:14 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\TME8\src\main\scala\bach.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.04 22:17:16 INFO  no build target found for C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\TME8_code\TME8\src\main\scala\bach.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.04 22:17:17 INFO  Attempting to connect to the build server...
+2025.12.04 22:17:17 INFO  Running BSP server List(C:\Users\merie\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.scala-build\ide-envs.json, C:\Users\merie\Desktop\WorkSpacePPC\TME8_code)
+2025.12.04 22:17:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\merie\Desktop\WorkSpacePPC\TME8_code\.metals\bsp.trace.json or C:\Users\merie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.12.04 22:17:20 INFO  time: Connected to build server in 3.29s
+2025.12.04 22:17:20 INFO  Connected to Build server: scala-cli v1.6.1
+2025.12.04 22:17:21 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.04 22:17:21 INFO  time: compiled TME8_code_d5c0a6989e in 0.43s
+2025.12.04 22:17:21 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.04 22:17:21 INFO  time: compiled TME8_code_d5c0a6989e in 0.37s
+2025.12.04 22:17:28 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.04 22:17:28 INFO  time: indexed workspace in 7.86s
+2025.12.04 22:17:29 INFO  compiling tme8_code_d5c0a6989e (2 scala sources)
+2025.12.04 22:17:29 INFO  time: compiled TME8_code_d5c0a6989e in 0.21s
+déc. 04, 2025 10:31:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2025.12.04 22:50:07 INFO  Shutting down server
+2025.12.04 22:50:07 INFO  shutting down Metals
+2025.12.04 22:50:07 INFO  Shut down connection with build server.
+2025.12.04 22:50:07 INFO  Exiting server
