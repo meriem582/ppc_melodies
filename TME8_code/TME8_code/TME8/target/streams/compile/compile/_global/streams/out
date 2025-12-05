@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\merie\Desktop\WorkSpacePPC2\ppc_melodies\TME8_code\TME8_code\TME8\src\main\scala\bach.scala:107:106: ';' expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m      Note(67,1000,100))), Sequential(List(Note(52,2000,100), Note(55,1000,100), Note(55,1000,100)))))))))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

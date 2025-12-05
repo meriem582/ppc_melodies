@@ -31,20 +31,85 @@ class BachActor extends Actor {
 
 def receive = {
   case "START" =>
-    play(exemple)
+
+    //QST2 : utilisation de duration :
+      val duree= duration(exemple)
+      println(s"la duree de cette exemple est $duree ms")
+    // QST 3 
+      //play(exemple)
+
+      val exemple_copy = copy(exemple)
+      println(s"Ceci est une copy de l'exemple : $exemple_copy")
+
+      val count_note = note_count(exemple)
+      println(s"Le nombre de note est de : $count_note")
+
+      val exemple_stretched = stretch(exemple, 2)
+      //play(exemple_stretched)
+
+      // la durée d'exemple stretched :
+      val duree_ex_stretched = duration(exemple_stretched)
+      println(s"La duree de l'exemple stretched est de $duree_ex_stretched ms" ) 
+
+      // QST 4 
+      val exemple_transposed = transpose(exemple, 12)
+      println(s"l'exemple avant transposition est : $exemple")
+      println(s"l'exemple apres transposition est : $exemple_transposed")
+      //play(exemple_transposed)
+
+      val exemple_retrograded = retrograde(exemple)
+      println(s"l'exemple avant retrogradation est : $exemple")
+      println(s"l'exemple apres retrogradation est : $exemple_retrograded")
+      //play(exemple_retrograded)
+      
+      val exemple_with_mirror = mirror(exemple,60) 
+      println(s"l'exemple avant mirroire est : $exemple")
+      println(s"l'exemple apres miroire est : $exemple_with_mirror")
+      //play(exemple_with_mirror)
+
+      val exemple_repeated3time = repeat(exemple,3)
+      println(s"l'exemple avant repetition est : $exemple")
+      println(s"l'exemple apres repetition est : $exemple_repeated3time")
+      //play(exemple_repeated3time)
+
+      val x = decalage(exemple, 5000)
+      println(s"l'exemple apres decalage est : $x") 
+
+      
+      val exemple_canoned = canon(exemple, 5000)
+      println(s"l'exemple avant canon est : $exemple")
+      println(s"l'exemple apres canon est : $exemple_canoned")
+      val exmple_canonned_duree = duration(exemple_canoned)
+      println(s"le temps pris pour l'exemple cannoned est : $exmple_canonned_duree") // pour vérifier si c'est 9000
+      //play(exemple_canoned) */
+
+
+      val exemple2 = canon(exemple_repeated3time, 1000)
+      println(s"L'exemple de figure 2 est : $exemple2")
+      //play(exemple2)
+
+      //QST5 
+      val canonBach = canon_Bach()
+      println(s"Canon bach : $canonBach")
+      play(canonBach)
+
+
+      
+
+
 }
 
 
 /////////////////////////////////////////////////
 
-//Question 1
+//QST 1
 
 val exemple =
   Parallel(List(
     Sequential(List(
       Note(60,1000,100),
-      Note(64,500,1000),
-      Note(62,500,1000),
+      Note(64,500,100),
+      Note(62,500,100),
       Rest(1000),
       Note(67,1000,100)
     )),
@@ -87,7 +152,7 @@ val exemple =
     case Parallel (l) => l.foreach(n=>play_midi(n,at))
   }
   
-/*
+
  // Copy un objet musical
   def copy (obj:ObjectMusical):ObjectMusical =
   obj match {
@@ -120,45 +185,56 @@ val exemple =
  
 // Transpose obj de n demitons
   def transpose (obj:ObjectMusical, n:Int ):ObjectMusical =
-obj match {
-  case Note(p,d,v) => Note(p+n,d,v)
-  case Rest(d) => Rest(d)
-  case Parallel (l) => Parallel (l.map(transpose (_,n)))
-  case Sequential (l) => Sequential (l.map(transpose (_,n)))
+  obj match {
+    case Note(p,d,v) => Note(p+n,d,v)
+    case Rest(d) => Rest(d)
+    case Parallel (l) => Parallel (l.map(transpose (_,n)))
+    case Sequential (l) => Sequential (l.map(transpose (_,n)))
 }
 
 // mirror de obj au tour du center c 
   def mirror (obj:ObjectMusical, c:Int ):ObjectMusical =
-obj match {
-  case Note(p,d,v) => Note(c - (p - c),d,v)
-  case Rest(d) => Rest(d)
-  case Parallel (l) => Parallel (l.map(mirror (_,c)))
-  case Sequential (l) => Sequential (l.map(mirror (_,c)))
+  obj match {
+    case Note(p,d,v) => Note(c - (p - c),d,v)
+    case Rest(d) => Rest(d)
+    case Parallel (l) => Parallel (l.map(mirror (_,c)))
+    case Sequential (l) => Sequential (l.map(mirror (_,c)))
 }
 
 // retrograde un obj  
-  def retrograde (obj:ObjectMusical):ObjectMusical =
-obj match {
-  case Sequential (l) => Sequential (l.reverse.map(retrograde))
-  case o => o
-}
+def retrograde(obj: ObjectMusical): ObjectMusical =
+  obj match {
+    case Note(p, d, v) => Note(p, d, v)
+    case Rest(d) => Rest(d)
+    case Sequential(l) => Sequential(l.reverse.map(retrograde))
+    case Parallel(l) => Parallel(l.reverse.map(retrograde))
+  }
+
 
 //Question 5
 
 
 // make a sequential avec n fois obj  
   def repeat (obj:ObjectMusical, n:Int):ObjectMusical =
-  //code here
+    Sequential(List.fill(n)(copy(obj)))
 
+// Décalage de n ms 
+  def decalage(obj: ObjectMusical, n: Int): ObjectMusical =
+    Sequential(List(Rest(n), obj))
+
+ 
 // make obj en parallele avec lui meme avec un decalage de n ms.
   def canon (obj:ObjectMusical, n:Int):ObjectMusical =
-  //code here
+  Parallel(List(
+    obj,
+    decalage(obj,n)
+    ))
 
 
 //  Met obj1 et obj2 en seqeunce 
   def concat (obj1:ObjectMusical, obj2:ObjectMusical):ObjectMusical =
-  //code here
-*/
+    Sequential(List(obj1, obj2))
+
 
 //Question 5 BACH
  val voix1 = Sequential ( List (
@@ -199,11 +275,31 @@ val voix2 = Sequential (List (
   Note (52 , 125 , 100 ),Note (53 , 125 , 100 ),Note (55 , 125 , 100 ),
   Note (58 , 125 , 100 ),Note (57 , 125 , 100 ),Note (55 , 125 , 100 )))
 
-/*
+
 def canon_Bach ():ObjectMusical = {
-    // ????
+    // premiere voix : 
+      val voix1repeated = repeat(voix1, 6)
+      val voix1transposed = (0 until 6).foldLeft(voix1repeated : ObjectMusical) {
+        (acc, i) => concat(acc, transpose(voix1, i * 2))
+      }
+    // deuxieme voix :
+      val voix2repeated = repeat(voix2, 6)
+      val voix2transposed = (0 until 6).foldLeft(voix2repeated : ObjectMusical) {
+        (acc, i) => concat(acc, transpose(voix2, i * 2))
+      }
+
+    // troisieme voix :
+      val voix3transposed = transpose(voix2, 7) 
+      val voix3repeated = repeat(voix3transposed, 6)
+      val voix3tanspositions = (0 until 6).foldLeft(voix3repeated : ObjectMusical) {
+        (acc, i ) => concat(acc, transpose(voix3transposed, i * 2))
+      }
+      val voix3decaler = decalage(voix3tanspositions, 2000)
+
+      Parallel(List(voix1transposed, voix2transposed, voix3decaler))
+    
   }
-*/
+
 }
 //////////////////////////////////////////////////
 
