@@ -85,7 +85,7 @@ def receive = {
 
 
       val exemple2 = canon(exemple_repeated3time, 1000)
-      println(s"L'exemple de figure 2 est : $exemple2")
+      println(s"L'exemple de figure 3 est : $exemple2")
       //play(exemple2)
 
       //QST5 
