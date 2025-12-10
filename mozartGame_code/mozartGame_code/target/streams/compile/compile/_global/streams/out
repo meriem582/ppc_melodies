@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\merie\Desktop\WorkSpacePPC2\ppc_melodies\mozartGame_code\mozartGame_code\src\main\scala\Provider.scala:23:18: not found: value GetMesure[0m
+[0m[[0m[31merror[0m] [0m[0m            db ! GetMesure(col) [0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
