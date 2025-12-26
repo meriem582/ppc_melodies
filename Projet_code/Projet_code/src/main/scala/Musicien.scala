@@ -8,7 +8,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.util.Random
 import upmc.akka.leader.DataBaseActor.Measure
 
-case class Start ()
+case object Start 
 sealed trait MusicienMessage
 case class SignDeVieMusicien(musicienId : Int) extends MusicienMessage
 case class SignDeVieLeader(leaderId : Int) extends MusicienMessage
