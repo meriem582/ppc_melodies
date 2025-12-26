@@ -1,7 +1,6 @@
 package upmc.akka.leader
 
 import akka.actor._
-import upmc.akka.leader.Terminal
 
 sealed trait MessageElection
 case class StartElection(musiciens: List[Int]) extends MessageElection // Message pour démarrer une élection entre musiciens avec la liste des musiciens participants dans l'élection
@@ -19,15 +18,15 @@ class ElectionActor  (val id:Int, val terminaux:List[Terminal]) extends Actor {
             leader = None  // On réinitialise le leader actuel
             musiciensEnVie = musiciens // On initialise la liste des musiciens en vie
             val nouveauLeaderId = musiciens.max // Le musicien en vie avec l'ID le plus élevé devient le nouveau leader
-            println(s"[ElectionActor $id] New leader elected: Musician $nouveauLeaderId")
+            println(s"[ElectionActor $id] Nouveau chef elu : Musicien $nouveauLeaderId")
             informerLesMusiciens(LeaderProposed(nouveauLeaderId))
         }
         case LeaderProposed(leaderId) => {
-            context.parent ! Message(s"[ElectionActor $id] Received leader proposal: Musician $leaderId")
+            context.parent ! Message(s"[ElectionActor $id] Reception d'un proposition d'election : Musicien $leaderId")
             informerLesMusiciens(NouveauLeader(leaderId))
         }
         case NouveauLeader(leaderId) => {
-            println(s"[ElectionActor $id] New leader confirmed: Musician $leaderId")
+            println(s"[ElectionActor $id] Nouveau chef est le : Musicien $leaderId")
             if(!leader.contains(leaderId)) {
                 leader = Some(leaderId)
                 context.parent ! LeaderChanged(leaderId)

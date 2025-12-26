@@ -20,7 +20,7 @@ class Musicien (val id:Int, val terminaux:List[Terminal]) extends Actor {
 
      // Les differents acteurs du systeme
      val electionActor = context.actorOf(Props(new ElectionActor(id, terminaux)), name = "electionActor")
-     val failureDetectorActor = context.actorOf(Props(new FailureDetectorActor(id, terminaux, electionActor)), name = "failureDetectorActor")
+     val SignDetectorActor = context.actorOf(Props(new SignDetectorActor(id, terminaux, electionActor)), name = "SignDetectorActor")
      val dataBaseActor = context.actorOf(Props[DataBaseActor], name = "dataBaseActor")
      val displayActor = context.actorOf(Props[DisplayActor], name = "displayActor")
      val playerActor = context.actorOf(Props[PlayerActor], name = "playerActor")
@@ -34,68 +34,68 @@ class Musicien (val id:Int, val terminaux:List[Terminal]) extends Actor {
 
           // Initialisation
           case Start => {
-               displayActor ! Message ("Musicien " + this.id + " is created")
-               failureDetectorActor ! Start
+               displayActor ! Message ("Musicien " + this.id + " est cree")
+               SignDetectorActor ! Start
                context.system.scheduler.scheduleOnce(3.seconds,self, LeaderNommer)
           }
           case Message(content) => {
                displayActor ! Message (content)
           }
           case SignLeaderAlive => {
-               displayActor ! Message( s"[Musicien $id] :I'am the leader.")
+               displayActor ! Message( s"[Musicien $id] : je suis le chef d'orchestre.")
                
                terminaux.filter(_.id != id).foreach { t =>
                     send(t.id, "",SignDeVieLeader(id))
                }
 
-               failureDetectorActor ! SignDeVieLeader(id)
+               SignDetectorActor ! SignDeVieLeader(id)
                if(listeMusicienVivants.nonEmpty && !GameStarted) {
-                    displayActor ! Message( s"[Musicien] : Starting the game.")
+                    displayActor ! Message( s"[Musicien] : Debut du jeu.")
                     conductorActor ! StartGame
                     GameStarted = true
                }
           }
           case SignMusicianAlive => {
-               displayActor ! Message( s"[Musicien $id] :I'am a musician.")
+               displayActor ! Message( s"[Musicien $id] : Je suis un musicien.")
                terminaux.filter(_.id != id).foreach { t =>
                     send(t.id, "",SignDeVieMusicien(id))
                }
-               failureDetectorActor ! SignDeVieMusicien(id)
+               SignDetectorActor ! SignDeVieMusicien(id)
           }
 
           case SignDeVieMusicien(id) => {
-               displayActor ! Message( s"[Musicien] : Received alive signal from musician $id.")
-               failureDetectorActor ! SignDeVieMusicien(id)
+               displayActor ! Message( s"[Musicien] : Reception d'un signal de vie du musicien $id.")
+               SignDetectorActor ! SignDeVieMusicien(id)
           }
 
           case SignDeVieLeader(id) => {
-               displayActor ! Message( s"[Musicien] : Received alive signal from leader $id.")
+               displayActor ! Message( s"[Musicien] : Reception d'un signal de vie du chef d'orchestre $id.")
                leaderId = Some(id)
-               failureDetectorActor ! SignDeVieLeader(id)
+               SignDetectorActor ! SignDeVieLeader(id)
           }
 
           case LeaderUpdated(id) => {
-               displayActor ! Message( s"[Musicien] : Leader updated to $id.")
+               displayActor ! Message( s"[Musicien] : le chef d'orchestre est maintenant le musicien $id.")
                leaderId = Some(id)
-               failureDetectorActor ! LeaderUpdated(id)
+               SignDetectorActor ! LeaderUpdated(id)
           }
 
           case LeaderNommer => {
                if(leaderId.isEmpty) {
                     leaderId = Some(id)
-                    displayActor ! Message( s"[Musicien $id] : I'am the leader by default.")
+                    displayActor ! Message( s"[Musicien $id] : je suis le chef par defaut.")
                     self ! SignLeaderAlive
-                    failureDetectorActor ! LeaderUpdated(id)
+                    SignDetectorActor ! LeaderUpdated(id)
                }
           }
 
           case SendFromConductor(measure) => {
                if(listeMusicienVivants.nonEmpty) {
                     val musicienId = listeMusicienVivants(Random.nextInt(listeMusicienVivants.size))
-                    displayActor ! Message( s"[Musicien $id] : Sending a measure to musician $musicienId.")
+                    displayActor ! Message( s"[Musicien $id] : l'envoie d'un measure au musicien $musicienId.")
                     send(musicienId, "/playerActor", measure)
                } else {
-                    displayActor ! Message( s"[Musicien $id] : No musician alive to send the measure.")
+                    displayActor ! Message( s"[Musicien $id] : pas de musicien vivant pour lui envoyer la mesure." )
                }
           }
 

@@ -22,7 +22,7 @@ class ConductorActor(prov : ActorRef, play : ActorRef ) extends Actor {
 
     def receive : Receive = {
         case StartGame => {
-            println("[CONDUCTOR] Commencement du jeu")
+            println("[CONDUCTOR] Debut du jeu")
             val resultat_tire = (1 to 2).map(_ => tire()).sum
             prov ! GetMeasureResult(resultat_tire)
         }
