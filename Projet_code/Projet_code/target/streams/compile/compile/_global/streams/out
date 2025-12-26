@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\merie\Desktop\WorkSpacePPC2\ppc_melodies\Projet_code\Projet_code\src\main\scala\Election.scala:4:25: imported `Terminal' is permanently hidden by definition of object Terminal in package leader[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport upmc.akka.leader.Terminal[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
